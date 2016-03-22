@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<addon scheme="2.0">
+    <id>api2cart</id>
+    <version>1.0</version>
+    <priority>2600</priority>
+    <position>0</position>
+    <status>active</status>
+    <name>API2Cart</name>
+    <description>API2Cart bridge download</description>
+    <dependencies/>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <settings layout="separate" edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="api2cart" edition_type="ROOT">
+                <name>API2Cart</name>
+                <items>
+                    <item id="connect">
+                        <type>template</type>
+                        <default_value>connect.tpl</default_value>
+                    </item>
+                </items>
+                <translations>
+                    <item for="name" lang="ru">API2Cart</item>
+                    <item for="name" lang="en">API2Cart</item>
+                </translations>
+            </section>
+        </sections>
+    </settings>
+    <language_variables>
+        <item lang="en" id="api2cart_bridge_connector">API2Cart Bridge Connector</item>
+        <item lang="ru" id="api2cart_bridge_connector">API2Cart Bridge Connector</item>
+
+        <item lang="en" id="test_store_key">Your store key:</item>
+        <item lang="ru" id="test_store_key">Ваш store key:</item>
+
+        <item lang="en" id="admin_connect">Connect</item>
+        <item lang="ru" id="admin_connect">Подключить</item>
+
+        <item lang="en" id="admin_disconnect">Disconnect</item>
+        <item lang="ru" id="admin_disconnect">Отключить</item>
+
+        <item lang="en" id="admin_update">Update Store Key</item>
+        <item lang="ru" id="admin_update">Обновление API ключа</item>
+
+        <item lang="en" id="platform_to_integrate">API2Cart is a unified platform to integrate with 30+ shopping carts including Magento, Shopify, WooCommerce, Bigcommerce, OpenCart, VirtueMart and others. It makes it easy to retrieve, add, delete, update, and synchronize such store data as customers, orders, products, and categories to provide different B2B services.</item>
+        <item lang="ru" id="platform_to_integrate">API2Cart это унифицированная платформа, которая позволяет интегрироваться с 30+ шоппинг картами, включая Magento, Shopify, WooCommerce, Bigcommerce, OpenCart, VirtueMart и другие. Сервис позволяет легко извлекать, добавлять, удалять, обновлять и синхронизировать различные данные из магазина, в том числе информацию о продуктах, категориях, заказах и клиентах, для того чтоб предоставлять разнообразные В2В услуги.</item>
+
+        <item lang="en" id="connector_installed_txt">The connector will be installed automatically. Just click the button below and have the connection between your CS-Cart store and the system needed established.</item>
+        <item lang="ru" id="connector_installed_txt">Коннектор будет установлен автоматически. Для этого просто нажмите кнопку, которая находиться ниже, и связь между вашим магазином на платформе CS-Cart и необходимой сыстемой будет установлена.</item>
+
+        <item lang="en" id="message_congratulations">Congratulations! The plugin is installed!</item>
+        <item lang="ru" id="message_congratulations">Поздравляем! Плагин был успешно установлен!</item>
+
+        <item lang="en" id="connect_info">To complete the connection process, follow the few steps listed below:</item>
+        <item lang="en" id="connect_info_li1">1) Create an API2Cart account.</item>
+        <item lang="en" id="connect_info_li2">2) Add your store to the store panel by indicating its URL and cart type.</item>
+        <item lang="en" id="connect_info_li3">3) Voila! The link between your CS-Cart store and API2Cart is established!</item>
+
+        <item lang="ru" id="connect_info">Для того, чтоб завершить процесс установки связи, вам необходимо сделать следующие действия:</item>
+        <item lang="ru" id="connect_info_li1">1) Создать свой API2Cart аккаунт.</item>
+        <item lang="ru" id="connect_info_li2">2) Добавить свой магазин в панель с магазинами, указав его URL  и тип карты.</item>
+        <item lang="ru" id="connect_info_li3">3) Вуаля! Связь между вашим WooCommerce магазином и сервисом API2Cart установлено!</item>
+
+        <item lang="en" id="pleas_note">
+            Store data interaction works if you are integrated with the service only.
+            It enables to retrieve, synchronize, and manipulate various information on products, categories, customers, and orders from the stores added to the store directory. For more information, schedule a call with our representative and have it all explained to you.
+        </item>
+        <item lang="ru" id="pleas_note">
+            что получение данных из магазина возможно только после интеграции из сервисом.
+            Ето позволяет извлекать, синхронизировать и управлять различной информацией которая была добавлена в директорию магазина, включая информацию о продуктах, категориях, заказах и клиентах.
+            Для получения подробной информации вы можете запланировать дзвонок с нашими експертами и обсудить все интересующие вас детали.
+        </item>
+
+        <item lang="en" id="pleas_note_title">Please note. </item>
+        <item lang="ru" id="pleas_note_title">Обратите внимание, </item>
+    </language_variables>
+</addon>
