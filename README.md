@@ -1,4 +1,4 @@
-# cscart-plugin
+# Cs-cart plugin
 Our connector plugins trigger a push-a-button connection and thus eliminate the inconvenience of sharing logins, passwords, and all kinds of keys.
 
 
